@@ -1,3 +1,2 @@
-class User::RegistrationsController < ApplicationController
-    before_action :authenticate_user!
+class User::RegistrationsController < ApplicationControlle
 end
