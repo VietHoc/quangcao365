@@ -1,2 +1,3 @@
-class User::RegistrationsController < ApplicationControlle
+class User::RegistrationsController < ApplicationController
+
 end
