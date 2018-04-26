@@ -1,9 +1,8 @@
 Rails.application.routes.draw do 
-  resources :articles
    scope '/api' do
     mount_devise_token_auth_for 'User', at: 'auth'
 
-
+    resources :articles
     resources :reports
     resources :users
     get 'phones'   , to: 'users#phones'
