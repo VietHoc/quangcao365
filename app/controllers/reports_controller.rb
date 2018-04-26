@@ -1,6 +1,6 @@
 class ReportsController < ApplicationController
     before_action :set_report ,only: [:destroy, :show]
-    skip_before_action :authenticate_user!, only: [:create]
+    skip_before_action :authenticate_user!, only: [:create, :index]
     def index
         @reports = Report.all
     end
