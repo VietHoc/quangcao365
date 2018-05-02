@@ -18,6 +18,6 @@ class UsersController < ApplicationController
   private
 
   def user_params
-      params.permit(:naphone_kinh_doanhme, :phone_ky_thuat, :phone_thiet_ke)
+      params.permit(:phone_kinh_doanh, :phone_ky_thuat, :phone_thiet_ke)
     end
 end

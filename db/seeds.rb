@@ -14,10 +14,10 @@ Report.create(
     description: Faker::Lorem
 )
 
-product=["in_kinh", "in_mika", "in_formex", "in_alumminium", "in_go",
-        "chu_noi_mica", "chu_noi_aluminium", "chu_noi_inox",
-        "tranh_uv", "tranh_trang_tri",
-        "bien_aluminium", "bien_bat_hiflex", "bien_bat_3m", "bien_mica", "bien_treo_tran", "bien_vay", "drop_quang_cao",
+product=["In Kính", "In Mika", "In Formex", "In Alumminium", "In Gỗ",
+        "Chữ Nổi Mica", "Chữ Nổi Aluminium", "Chữ Nỗi Inox",
+        "Tranh Uv", "Tranh Trang Tri",
+        "Biển Aluminium", "Biển Bạt Hiflex", "bien_bat_3m", "bien_mica", "bien_treo_tran", "bien_vay", "drop_quang_cao",
         "bien_inox_an_mon", "bien_chuc_danh",
         "hop_den_sieu_mong", "hop_den_uv", "hop_den_led",
         "decal_mo", "decal_pp", "decal_oto", "decal_trong", "decal_trang_tri",
