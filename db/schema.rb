@@ -19,7 +19,8 @@ ActiveRecord::Schema.define(version: 20180425111209) do
     t.string "title"
     t.string "image"
     t.string "content"
-    t.string "product"
+    t.string "key"
+    t.boolean "specialProd"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -31,7 +32,9 @@ ActiveRecord::Schema.define(version: 20180425111209) do
   end
 
   create_table "products", force: :cascade do |t|
-    t.string "name"
+    t.string "key"
+    t.string "text"
+    t.boolean "bold"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

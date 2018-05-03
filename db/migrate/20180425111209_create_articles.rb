@@ -4,7 +4,8 @@ class CreateArticles < ActiveRecord::Migration[5.1]
       t.string :title
       t.string :image
       t.string :content
-      t.string :product
+      t.string :key
+      t.boolean :specialProd
 
       t.timestamps
     end
