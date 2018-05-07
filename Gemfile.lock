@@ -61,6 +61,8 @@ GEM
       activemodel (>= 4.0.0)
       activesupport (>= 4.0.0)
       mime-types (>= 1.16)
+    carrierwave-base64 (2.3.5)
+      carrierwave (>= 0.8.0)
     concurrent-ruby (1.0.5)
     crass (1.0.4)
     css_parser (1.6.0)
@@ -437,7 +439,7 @@ DEPENDENCIES
   airborne
   byebug
   capistrano (~> 3.10)
-  carrierwave (= 1.2.2)
+  carrierwave-base64
   database_cleaner
   devise_token_auth
   dotenv-rails

@@ -27,7 +27,7 @@ gem 'will_paginate',           '3.1.5'
 gem 'premailer-rails'
 gem 'filterrific'
 gem 'fuubar'
-gem 'carrierwave',             '1.2.2'
+gem "carrierwave-base64"
 gem 'mini_magick',             '4.7.0'
 gem 'fog', '1.42'
 group :development, :test do
